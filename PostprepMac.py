@@ -6,7 +6,7 @@ from __future__ import print_function  # In Python 2.7, print is treated like a 
 version = "2.0"
 # Author: Will Hegedus
 # OG bash shout out: Lucas Messenger
-# Updated: 10-21-2015
+# Updated: 6-26-2016
 # Created: 7-29-2015
 # Known bugs: Firefox Icon sometimes doesn't show up in the launchpad grid
 # Last update: All new download function! Progress bar! Silent Flash install! Silent Air install! New Java!
