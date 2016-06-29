@@ -6,7 +6,7 @@ from __future__ import print_function  # In Python 2.7, print is treated like a 
 version = "2.0"
 # Author: Will Hegedus
 # OG bash shout out: Lucas Messenger
-# Updated: 10-21-2015
+# Updated: 6-26-2016
 # Created: 7-29-2015
 # Known bugs: Firefox Icon sometimes doesn't show up in the launchpad grid
 # Last update: All new download function! Progress bar! Silent Flash install! Silent Air install! New Java!
@@ -85,7 +85,7 @@ def Shockwave():
 
 
 def Java():
-    download1('http://javadl.sun.com/webapps/download/AutoDL?BundleId=111682', 'Java.dmg')
+    download1('http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207766', 'Java.dmg')
 
 
 def Silver():  # Silverlight is weird
@@ -103,7 +103,7 @@ def AIR():
 def Reader():
     print("This one takes forever. Sorry. (not sorry).")
     print("It also uses an ftp link so no status updates...be patient.")
-    urllib.urlretrieve('ftp://ftp.adobe.com/pub/adobe/reader/mac/11.x/11.0.10/en_US/AdbeRdr11010_en_US.dmg',
+    urllib.urlretrieve('ftp://ftp.adobe.com/pub/adobe/reader/mac/11.x/11.0.16/misc/AdbeRdrUpd11016.dmg',
                        'Reader.dmg')
     done()
 
